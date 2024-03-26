@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -23,38 +34,35 @@ body {
 /* STYLES */
 /* Write your CSS below */
 h3 {
-  font-weight:bold;
+  font-weight: bold;
 }
 #showcase {
   background-image: url("../images/apple-pie.jpg");
-  height: 20em
+  height: 20em;
 }
 
 #content {
-  margin:2em auto;
+  margin: 2em auto;
   max-width: 30em;
 }
 
-#intro_text{
-      color:white;
-      font-size:2em;
-      font-weight:bold;
-      padding:5em 0em 1em 0em;
-      text-align:center;
+#intro_text {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 5em 0em 1em 0em;
+  text-align: center;
 }
 
-#ingredients{
-  margin-top:2em;
-
+#ingredients {
+  margin-top: 2em;
 }
 
-#directions{
-   margin-top:2em;
-
+#directions {
+  margin-top: 2em;
 }
 
 img {
-  width:300px;
+  width: 300px;
   max-height: 100px;
-  
 }
